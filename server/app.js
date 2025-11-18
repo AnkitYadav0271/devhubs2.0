@@ -4,9 +4,11 @@ import authRouter from "./routes/auth.routes.js"
 import { configDotenv } from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import { connectMongoDB } from "./database/dbConfig.js";
+
 import { connectRedis } from "./database/redisConfig.js";
 import { errorHandler } from "./middleware/error/errorHandlerMiddleware.js";
+import { connectMongoDB } from './database/dbConfig.js';
+import projectListingRouter from './routes/ProjectListingRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;

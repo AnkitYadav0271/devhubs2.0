@@ -1,0 +1,34 @@
+{
+  "project_Title": "AI-Powered Code Collaboration Platform",
+  "project_Starting_Bid": 5000,
+  "project_Starting_Date": "2025-11-01T00:00:00.000Z",
+  "project_Ending_Date": "2025-12-15T00:00:00.000Z",
+  "Number_of_Contributors": 4,
+  "project_Technology_Stack": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Firebase",
+    "TailwindCSS"
+  ],
+  "project_Category": "Free project",
+  "project_Description": "A real-time collaborative coding platform that allows developers to write, run, and share code together while communicating through integrated chat and video features.",
+  "project_Key_Features": [
+    "Live code editor with syntax highlighting and auto-completion features",
+    "Real-time collaboration and version control integration system",
+    "Integrated chat and video call functionality for team communication",
+    "GitHub project sync and automated deploy preview capabilities",
+    "Contributor leaderboard and reward system with gamification"
+  ],
+  "project_Status": "Active",
+  "project_Ideal_Member_looking_For": [
+    "Full Stack Developers with React and Node.js experience",
+    "UI/UX Designers interested in building AI-driven developer tools",
+    "Backend developers with MongoDB and Express expertise"
+  ],
+  "project_github_Repository_Link": "https://github.com/anishgupta-dev/ai-code-collab",
+  "project_Cover_Image": "https://res.cloudinary.com/demo/image/upload/v1699287000/project-cover.png",
+  "project_Bonus_Per_Contributor": 1000
+}
+
