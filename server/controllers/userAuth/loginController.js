@@ -12,7 +12,7 @@ export const loginUser = async (req, res,next) => {
     const ip = req.ip;
     const userAgent = req.headers["user-agent"];
     if (!email || !password) {
-      return next(new AppError("Email and password or required"))
+      return next(new AppError("Email and password or required",404))
     }
 
     const result = await userServices.loginUser(email, password);
